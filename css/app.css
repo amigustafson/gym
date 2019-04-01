@@ -1,0 +1,145 @@
+body, html {
+  height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  background: gray;
+  overflow-x: hidden; }
+
+h4 {
+  font-size: 2.5rem; }
+
+.navbar {
+  background: black !important;
+  height: 100px; }
+
+.navbar-brand img {
+  height: 80px; }
+
+.navbar-nav li {
+  padding-right: 1rem;
+  text-transform: uppercase;
+  background: black; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: lightblue; }
+
+.home-bgimg img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden; }
+
+#equipment {
+  height: 120vh; }
+
+#equipment-carousel {
+  top: 0;
+  position: relative;
+  z-index: 10; }
+
+.wrap {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 10; }
+
+.home-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 10; }
+
+.offset {
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh; }
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 35%;
+  color: #fff;
+  z-index: 30; }
+
+.caption h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 8px black;
+  padding-bottom: 20px; }
+
+.caption h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 8px black;
+  padding-bottom: 20px; }
+
+.btn-lg {
+  border-radius: 0;
+  border-width: thin;
+  padding: 10px; }
+
+#membership {
+  background: white;
+  position: relative;
+  z-index: 10; }
+  #membership form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; }
+    #membership form .form-group {
+      margin: 20px; }
+  #membership .wrap h4 {
+    display: flex;
+    justify-content: center;
+    margin: 40px; }
+  #membership .wrap p {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    text-align: center; }
+
+.content-text {
+  background: white;
+  position: relative;
+  z-index: 10; }
+
+#equipment .content-text {
+  top: 40%;
+  position: relative;
+  z-index: 30;
+  padding: 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0); }
+
+#philosophy .content-text {
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #philosophy .content-text p {
+    width: 50vw; }
+
+.testimonials img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  z-index: 10; }
+
+/*# sourceMappingURL=app.css.map */

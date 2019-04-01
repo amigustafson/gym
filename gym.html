@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GYM</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- START HOME -->
+  <div id="home">
+    <!-- start navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#philosophy">Philosophy</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#membership">Membership</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#equipment">Equipment</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <!-- end navigation -->
+
+    <!-- start landing-->
+    <div class="landing">
+      <div class="home-wrap">
+        <div class="home-bgimg"><img src="img/landing.jpg">
+        </div>
+      </div>
+    <div class="caption text-center">
+      <h1>GYM is where it's at!</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur...</h3>
+      <a class="btn btn-outline-light btn-lg" href="#membership">Get Started</a>
+    </div>
+  </div>
+    <!-- end landing-->
+
+<!-- END HOME -->
+
+
+<!-- START PHILOSOPHY-->
+  <div id="philosophy" class="offset">
+    <div class="wrap">
+      <div class="content-text">
+        <h4>Philosophy</h4></br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Pellentesque ut dapibus odio. Cras dictum est vel diam tincidunt pharetra.
+          Vivamus magna arcu, rutrum mollis est ut, molestie vehicula velit.
+          Nunc in tempus metus. Fusce tristique pretium semper.
+          Maecenas molestie enim et orci blandit, molestie suscipit est vehicula.
+          Aliquam pulvinar orci non ante lobortis semper.
+          Sed ex sem, accumsan ut dictum nec, imperdiet ut sapien.
+          Mauris faucibus, diam nec ornare maximus, purus purus consectetur erat, nec efficitur quam orci at odio.</p>
+      </div>
+    </div>
+  </div>
+<!-- END PHILOSOPHY -->
+
+
+<!-- START MEMBERSHIP -->
+  <div id="membership" class="offset">
+      <div class="wrap">
+        <h4>Membership</h4></br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Pellentesque ut dapibus odio. Cras dictum est vel diam tincidunt pharetra. </p>
+        <form action="/action_page.php" class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="uname">Username:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Log In</button>
+        </br></br><a href="#">Not a member?</a>
+
+
+        <script>
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+
+        </form>
+    </div>
+  </div>
+<!-- END MEMBERSHIP -->
+
+
+<!-- START EQUIPMENT -->
+  <div id="equipment" class="offset">
+    <div class="content-text text-center">
+      <h4>Equipment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Pellentesque ut dapibus odio. Cras dictum est vel diam tincidunt pharetra.</p>
+    </div>
+    <div id="equipment-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/equipment1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/equipment2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/equipment3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#equipment-carousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+    </div>
+<!-- END EQUIPMENT -->
+
+
+
+<!-- START TESTIMONIALS -->
+  <div id="testimonials" class="offset">
+    <div class="wrap">
+    <div class="jumbotron">
+      <div class="col-12 text-center">
+        <h4 class="heading">Testimonials</h4>
+      </div>
+      <div class="row">
+        <div class="col-md-6 testimonials">
+          <div class="row">
+
+            <div class="col-md-4">
+              <img src="img/testimonial1.jpg">
+            </div>
+
+            <div class="col-md-8">
+              <blockquote>
+              <i class="fa fa-quote-left"></i>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque ut dapibus odio.
+              <hr class="testimonials-hr">
+              <cite>Name Name, job</cite>
+            </blockquote>
+            </div>
+          </div>
+          </div>
+
+
+            <div class="col-md-6 testimonials">
+              <div class="row">
+
+            <div class="col-md-4">
+              <img src="img/testimonial2.jpg">
+            </div>
+
+            <div class="col-md-8">
+              <blockquote>
+              <i class="fa fa-quote-left"></i>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque ut dapibus odio.
+              <hr class="testimonials-hr">
+              <cite>Name Name, job</cite>
+            </blockquote>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+<!-- END TESTIMONIALS -->
+
+
+<!-- START CONTACT -->
+  <div id="contact" class="offset">
+    <div class="wrap">
+      <h4>Contact</h4>
+      <a href="#" target"_blank"><i class="fa fa-facebook-square"></i></a>
+      <a href="#" target"_blank"><i class="fa fa-twitter-square"></i></a>
+      <a href="#" target"_blank"><i class="fa fa-facebook"></i></a>
+    </div>
+  </div>
+<!-- END CONTACT -->
+
+
+</body>
+
+<!-- JQ, POPPER and JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
