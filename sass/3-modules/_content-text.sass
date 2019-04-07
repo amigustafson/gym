@@ -8,10 +8,10 @@
 
 
 #equipment .content-text
-  top: 40%
+  top: 20%
   position: relative
   z-index: $z-caption
-  padding: 20px
+  padding: 15%
   color: white
   background: transparentize(white, 1)
 
@@ -25,3 +25,24 @@
 
   p
     width: 50vw
+
+#contact .content-text
+  padding: 10vh
+  h4
+    margin: 4vh
+    margin-bottom: 8vh
+  p
+    margin-bottom: 2vh
+
+
+#contact .content-text .social
+  margin: 10vw
+  display: flex
+  justify-content: center
+  justify-content: space-around
+  font-size: $base-size+1
+  a
+    color: $module-color
+    &:hover
+      color: $accent-color
+      background: none
