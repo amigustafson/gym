@@ -45,7 +45,7 @@ a {
   overflow: hidden; }
 
 #equipment-carousel {
-  top: -26vh;
+  top: -8vh;
   position: relative;
   z-index: 10; }
 
@@ -67,15 +67,20 @@ a {
   width: 100vw;
   height: 100vh; }
 
+#home {
+  width: 100%; }
+
 #philosophy {
-  margin-top: 40px;
+  height: auto;
   margin-bottom: 40px;
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  display: flex;
+  align-content: center; }
 
 #membership {
   background: rgba(255, 255, 255, 0.5);
-  height: 100vh;
+  height: auto;
   position: relative;
   z-index: 10;
   display: flex;
@@ -87,7 +92,8 @@ a {
   height: 120vh; }
 
 #testimonials {
-  position: relative; }
+  position: relative;
+  overflow: scroll; }
   #testimonials blockquote {
     padding: 2vh; }
 
@@ -98,6 +104,16 @@ a {
   position: relative;
   z-index: 10; }
 
+@media only screen and (max-width: 576px) {
+  #home {
+    padding-bottom: 10vh; }
+
+  #philosophy {
+    padding-top: 35%;
+    height: 100%; }
+
+  #membership {
+    height: 150%; } }
 .caption {
   width: 100%;
   max-width: 100%;
@@ -159,7 +175,7 @@ a {
   z-index: 10; }
 
 #equipment .content-text {
-  top: 20%;
+  top: 40%;
   position: relative;
   z-index: 30;
   padding: 15%;
@@ -167,7 +183,7 @@ a {
   background: rgba(255, 255, 255, 0); }
 
 #philosophy .content-text {
-  height: 100vh;
+  height: 100%;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -196,6 +212,9 @@ a {
       color: #7c9ed6;
       background: none; }
 
+@media only screen and (max-width: 576px) {
+  #philosophy .content-text p {
+    width: 86vw; } }
 .testimonials img {
   width: 200px;
   height: 200px;

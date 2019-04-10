@@ -5,10 +5,8 @@
   position: relative
   z-index: $z-page
 
-
-
 #equipment .content-text
-  top: 20%
+  top: 40%
   position: relative
   z-index: $z-caption
   padding: 15%
@@ -16,7 +14,7 @@
   background: transparentize(white, 1)
 
 #philosophy .content-text
-  height: 100vh
+  height: 100%
   padding: 50px
   display: flex
   flex-direction: column
@@ -46,3 +44,8 @@
     &:hover
       color: $accent-color
       background: none
+
+@media only screen and (max-width: 576px)
+  #philosophy .content-text
+    p
+      width: 86vw
