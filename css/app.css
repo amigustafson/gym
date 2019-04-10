@@ -4,21 +4,21 @@ body, html {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  background: gray;
+  background: #676d77;
   overflow-x: hidden; }
 
 h4 {
   font-size: 2.5rem; }
 
 a {
-  color: black; }
+  color: #2e3033; }
   a:hover {
     background: rgba(124, 158, 214, 0.5);
     color: black;
     text-decoration: none; }
 
 .navbar {
-  background: black !important;
+  background: #2e3033 !important;
   height: 100px; }
 
 .navbar-brand img {
@@ -27,10 +27,10 @@ a {
 .navbar-nav li {
   padding-right: 1rem;
   text-transform: uppercase;
-  background: black; }
+  background: #2e3033; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff; }
+  color: #e5e6e8; }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -92,6 +92,7 @@ a {
   height: 120vh; }
 
 #testimonials {
+  margin-top: 10%;
   position: relative;
   overflow: scroll; }
   #testimonials blockquote {
@@ -100,7 +101,7 @@ a {
 #contact {
   margin-top: 8vh;
   margin-bottom: 0;
-  background: white;
+  background: #e5e6e8;
   position: relative;
   z-index: 10; }
 
@@ -119,7 +120,7 @@ a {
   max-width: 100%;
   position: absolute;
   top: 35%;
-  color: #fff;
+  color: #e5e6e8;
   z-index: 30; }
 
 .caption h1 {
@@ -151,7 +152,7 @@ a {
   text-align: center;
   padding: 40px; }
   #membership form button {
-    background: black;
+    background: #2e3033;
     border-radius: 0;
     border: none; }
     #membership form button:hover {
@@ -170,7 +171,7 @@ a {
   text-align: center; }
 
 .content-text {
-  background: white;
+  background: #e5e6e8;
   position: relative;
   z-index: 10; }
 
@@ -179,7 +180,7 @@ a {
   position: relative;
   z-index: 30;
   padding: 15%;
-  color: white;
+  color: #e5e6e8;
   background: rgba(255, 255, 255, 0); }
 
 #philosophy .content-text {
@@ -207,7 +208,7 @@ a {
   justify-content: space-around;
   font-size: 2rem; }
   #contact .content-text .social a {
-    color: black; }
+    color: #2e3033; }
     #contact .content-text .social a:hover {
       color: #7c9ed6;
       background: none; }
